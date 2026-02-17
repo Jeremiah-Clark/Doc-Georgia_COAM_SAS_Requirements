@@ -1,20 +1,20 @@
 ---
-title: Title
-author: Author
-date: Date
-version: 
+title: Georgia COAM SAS Requirements
+author: Jeremiah D Clark
+date: 2026-02-17
+version: "2.0"
 keywords:
   - template
   - keywords
-subject: A one-line document description.
+subject: Georgia COAM SAS requirements.
 lang: en-US
 
 # Template controls
 logo: images/logo.png
-disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of ___. Do not disseminate or share such information unless expressly approved by ___ and its constituents."
+disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of Bravery Gaming LLC. Do not disseminate or share such information unless expressly approved by Bravery Gaming LLC and its constituents."
 toc: true
 toc-depth: 2
-numbersections: true
+numbersections: false
 
 # PDF settings
 fontsize: 11pt
@@ -29,7 +29,7 @@ font-heading: "Noto Sans"
 font-mono: "Noto Sans Mono"
 
 # Line spacing (1.0 = single, 1.25 = default, 1.5 = one-and-a-half)
-linespread: "1.25"
+linespread: "1.15"
 
 # Colors — RGB values as "R,G,B" (0–255)
 color-heading: "25,55,120"
