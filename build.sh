@@ -5,6 +5,7 @@ pandoc --from gfm-alerts \
        --pdf-engine=xelatex \
        --lua-filter gfm-to-latex.lua \
        SAS_Requirements.md \
+       Source_Documents.md \
        -o Output.pdf
 
 echo "PDF generated"
