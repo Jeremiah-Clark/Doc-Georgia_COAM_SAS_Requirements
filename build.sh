@@ -4,8 +4,9 @@ pandoc --from gfm-alerts \
        --template template.tex \
        --pdf-engine=xelatex \
        --lua-filter gfm-to-latex.lua \
+       Frontmatter.md \
        SAS_Requirements.md \
        Source_Documents.md \
-       -o Output.pdf
+       -o Georgia_COAM_SAS_Requirements-Latest.pdf
 
 echo "PDF generated"
