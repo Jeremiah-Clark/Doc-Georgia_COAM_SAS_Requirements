@@ -4,9 +4,7 @@ pandoc --from gfm-alerts \
        --template template.tex \
        --pdf-engine=xelatex \
        --lua-filter gfm-to-latex.lua \
-       First File \
-       Second File \
-       And so on \
+       SAS_Requirements.md \
        -o Output.pdf
 
 echo "PDF generated"
