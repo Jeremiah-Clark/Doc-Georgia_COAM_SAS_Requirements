@@ -17,8 +17,9 @@ A compact description of current Georgia COAM SAS requirements as of February 20
 
 ## Document Table of Contents
 
-- Description
-- Version History
+- Frontmatter
+  - Description
+  - Version History
 - 01 COAM Regulations
   - 01.01 The Basics
   - 01.02 Skill Test
