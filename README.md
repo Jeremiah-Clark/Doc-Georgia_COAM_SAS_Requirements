@@ -1,6 +1,6 @@
 # Doc - Georgia COAM SAS Requirements
 
-A compact description of current Georgia COAM SAS requirements as of February 2026 (Section 01), and links to relevant regulatory documents (Section 02).
+This document is designed for experienced slot developers and producers who need to quickly familiarize themselves with Georgia COAM regulations and requirements. It provides comprehensive lists of mandatory SAS events, extended polls, and meters, along with the restrictions imposed on secondary SAS connections.
 
 ## Project Structure
 
@@ -17,10 +17,10 @@ A compact description of current Georgia COAM SAS requirements as of February 20
 
 ## Document Table of Contents
 
-- Frontmatter
+- **Frontmatter**
   - Description
   - Version History
-- 01 COAM Regulations
+- **01 COAM Regulations**
   - 01.01 The Basics
   - 01.02 Skill Test
   - 01.03 Hand Count
@@ -28,13 +28,13 @@ A compact description of current Georgia COAM SAS requirements as of February 20
   - 01.05 Location Requirements
   - 01.06 Other Regulations
   - 01.07 Other Considerations
-- 02 Skill Test Considerations
+- **02 Skill Test Considerations**
   - 02.01 Features Common to Skill Test Presentations
   - 02.02 Common Skill Test Types
-- 03 Market Considerations
+- **03 Market Considerations**
   - 03.01 Key Differences from Casinos
   - 03.02 What Attracts and Retains COAM Players
-- 04 GA Regulatory Documents
+- **04 GA Regulatory Documents**
   - 04.01 Georgia Criminal Code
   - 04.02 Official Code of Georgia Annotated
   - 04.03 GLC Rules - COAM
