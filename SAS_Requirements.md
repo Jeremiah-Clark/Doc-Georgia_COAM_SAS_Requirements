@@ -1,13 +1,11 @@
 # 01 SAS Requirements
 
-*(Ref: SAS Requirements v1.8)*
-
 The current COAM SAS implementation is based on **SAS Protocol 6.02**.
 
 ## 01.01 Minimum Feature Support
 
 - The cabinet remains enabled if disconnected from the Site Controller
-- The cabinet can be configured for any number from 1–127
+- The cabinet can be configured for any number from 1 to 127
 - **Event 70** as required by the SAS protocol
 - The player must still be able to cash out if the cabinet has been disabled by **LP $01**
 - Can be configured to a $0.01 denomination
@@ -81,7 +79,7 @@ The current COAM SAS implementation is based on **SAS Protocol 6.02**.
 - **0024** = Total Drop
 - **0040-0057** = Total number of X bills accepted
 
-> [!NOTE] Notes:
+> [!NOTE] Clarifying Notes
 >
 > 1. \* The “attendant paid” and “hand paid” meters will remain at “0000”  
 > 2. \*\* Denomination will always be “01”  
