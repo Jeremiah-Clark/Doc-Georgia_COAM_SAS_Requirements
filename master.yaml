@@ -10,7 +10,7 @@ subject: Georgia COAM SAS requirements.
 lang: en-US
 
 # Template controls
-logo: images/logo.png
+logo: 
 disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of Bravery Gaming LLC. Do not disseminate or share such information unless expressly approved by Bravery Gaming LLC and its constituents."
 toc: true
 toc-depth: 2
