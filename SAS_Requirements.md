@@ -81,9 +81,9 @@ The current COAM SAS implementation is based on **SAS Protocol 6.02**.
 
 > [!NOTE] Clarifying Notes
 >
-> 1. \* The “attendant paid” and “hand paid” meters will remain at “0000”  
-> 2. \*\* Denomination will always be “01”  
-> 3. \*\*\* “Jackpot” meters will remain at “00000000”
+> \* The “attendant paid” and “hand paid” meters will remain at “0000”  
+> \*\* Denomination will always be “01”  
+> \*\*\* “Jackpot” meters will remain at “00000000”
 
 ## 01.04 Required Events
 
