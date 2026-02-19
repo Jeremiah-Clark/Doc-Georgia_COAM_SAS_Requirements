@@ -37,3 +37,10 @@
 *.afdesign-preview
 *.afphoto-preview
 *.afpub-preview
+
+## Template-only Files
+
+*.tex
+*.lua
+*.yaml
+*.sh
