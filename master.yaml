@@ -1,0 +1,47 @@
+---
+title: Georgia COAM SAS Requirements
+author: Jeremiah D Clark
+date: 2026-02-17
+version: "1.1"
+keywords:
+  - template
+  - keywords
+subject: Georgia COAM SAS requirements.
+lang: en-US
+
+# Template controls
+logo: images/BraveryLogo.png
+disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of Bravery Gaming LLC. Do not disseminate or share such information unless expressly approved by Bravery Gaming LLC and its constituents."
+toc: true
+toc-depth: 2
+numbersections: false
+
+# PDF settings
+fontsize: 11pt
+papersize: letter
+
+# ---------------------------------------------------------------------------
+# Style settings
+# ---------------------------------------------------------------------------
+# Fonts
+font-body: "Noto Sans"
+font-heading: "Noto Sans"
+font-mono: "Noto Sans Mono"
+
+# Line spacing (1.0 = single, 1.25 = default, 1.5 = one-and-a-half)
+linespread: "1.5"
+
+# Colors — RGB values as "R,G,B" (0–255)
+color-heading: "25,55,120"
+color-link: "40,80,180"
+
+# Callout colors — LaTeX color names (red, blue, orange, green, etc.)
+# The template derives the title bar, border, and background from this base.
+color-important: "red"
+color-note: "blue"
+color-warning: "orange"
+color-tip: "green"
+color-caution: "yellow"
+color-summary: "violet"
+color-example: "black"
+---
