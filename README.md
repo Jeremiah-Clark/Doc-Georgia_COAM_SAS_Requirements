@@ -6,9 +6,9 @@ This document is designed for experienced slot developers and producers who need
 
 ```
 ├── Georgia_COAM_SAS_Requirements-Latest.pdf # The most recent build of this document
-├── Frontmatter.md                           # Document information and disclaimer
-├── SAS_Requirements.md                      # Details of SAS regulations
-├── Source_Documents.md                      # Links to relevant documents
+├── 00-Frontmatter.md                        # Document information and disclaimer
+├── 01-SAS_Requirements.md                   # Details of SAS regulations
+├── 02-Source_Documents.md                   # Links to relevant documents
 ├── master.yaml                              # Metadata + style settings
 ├── build.sh                                 # Build script
 └── images/                                  # Image folder
@@ -44,3 +44,9 @@ This document is designed for experienced slot developers and producers who need
 
 - **v1** - Initial document, January 2026
   - **V1.1** - Formatted for new template, February 2026
+ 
+---
+
+# Template System
+
+This document uses my [SimpleDoc Template System](https://github.com/Jeremiah-Clark/Template-Simple_Doc)
