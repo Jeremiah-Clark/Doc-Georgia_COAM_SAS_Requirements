@@ -24,9 +24,9 @@ papersize: letter
 # Style settings
 # ---------------------------------------------------------------------------
 # Fonts
-font-body: "Noto Sans"
-font-heading: "Noto Sans"
-font-mono: "Noto Sans Mono"
+font-body: "NotoSansNF-Reg"
+font-heading: "NotoSansNF-Reg"
+font-mono: "NotoMonoNF"
 
 # Line spacing (1.0 = single, 1.25 = default, 1.5 = one-and-a-half)
 linespread: "1.5"
