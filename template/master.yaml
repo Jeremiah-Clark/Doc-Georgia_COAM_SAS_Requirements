@@ -1,0 +1,109 @@
+# SimpleDoc v1.0.1 - Template Configuration
+---
+title: "Georgia COAM SAS Requirements"
+author: "Jeremiah D Clark"
+date: "Date"
+auto-date: true          # Uncomment to use today's date instead of the date above
+version: "1.1"
+keywords:
+- gaming
+- Georgia
+- COAM
+- regulations
+subject: "Georgia COAM SAS requirements."
+lang: en-US
+
+# Template controls
+logo: ../images/BraveryLogo.png     # Will be large and centered on title page
+# Disclaimer text for the title page. Replace YOUR_ORG with your company or
+# organization name, or delete the entire line to hide the disclaimer box.
+disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of Bravery Gaming LLC. Do not disseminate or share such information unless expressly approved by Bravery Gaming LLC and its constituents."
+toc: true                 # true/false
+toc-depth: 2              # 1-6
+secnumdepth: 0            # 0 = no numbers; 1 = H1 only; 2 = H1, and H2; 3 = H1, H2, and H3
+h2-page-break: false      # true = start each H2 subsection on a new page
+
+# Watermark — displays angled text on every page (e.g. "DRAFT", "CONFIDENTIAL")
+# Delete or comment out to disable.
+# watermark: "DRAFT"
+# watermark-opacity: "0.15"  # 0.0 = invisible, 1.0 = fully opaque (default: 0.15)
+# watermark-scale: "80pt"    # Font size of the watermark text (default: 80pt)
+
+# PDF settings
+fontsize: 11pt
+papersize: letter         # letter/a4
+
+# ---------------------------------------------------------------------------
+# Page layout
+# ---------------------------------------------------------------------------
+# Margins — standard LaTeX dimensions (in, cm, mm, pt, em)
+margin: "1in"             # Left and right margins
+margin-top: "1.25in"      # Top margin
+margin-bottom: "1.25in"   # Bottom margin
+
+# Header/footer geometry — controls the spacing between the rules and the text
+headheight: "14pt"        # Height of the header box
+headsep: "12pt"           # Gap between the header rule and the body text
+footskip: "30pt"          # Distance from the body bottom to the footer baseline
+
+# Header/footer rule thickness (set to 0pt to hide a rule)
+header-rule: "0.4pt"
+footer-rule: "0.4pt"
+
+# Custom header content — leave blank or delete to hide
+# header-left: "Acme Corp"
+# header-center: ""
+header-right: "Bravery Gaming, LLC"
+
+# Footer options
+# page-total: true          # Uncomment to show "Page X of Y" instead of "Page X"
+
+# ---------------------------------------------------------------------------
+# Title page
+# ---------------------------------------------------------------------------
+# Logo width as a fraction of the text width (0.0–1.0)
+logo-width: "0.8"
+
+# Vertical spacing between title page elements — standard LaTeX dimensions
+titlepage-post-rule: "2em"      # After the top rule, before the title
+titlepage-post-title: "0.75em"  # After the title, before the author
+titlepage-post-author: "0.5em"  # After the author, before the date
+titlepage-post-date: "3em"      # After the date, before the logo
+
+# ---------------------------------------------------------------------------
+# Style settings
+# ---------------------------------------------------------------------------
+# Fonts — the primary font is tried first. If it isn't installed, the
+# fallback is used automatically (a console message will tell you).
+#
+# Default primary: Noto Sans Nerd Font (NF) — includes thousands of extra
+# icons and symbols. Install from https://www.nerdfonts.com/font-downloads
+# (look for "Noto Sans Mono Nerd Font" and "Noto Sans Nerd Font").
+#
+# Default fallback: standard Noto Sans / Noto Sans Mono — works perfectly
+# for all normal text. Only the extended symbol set is missing.
+# See the README for installation instructions for both options.
+font-body: "NotoSansNF-Reg"
+font-body-fallback: "Noto Sans"
+font-heading: "NotoSansNF-Reg"
+font-heading-fallback: "Noto Sans"
+font-mono: "NotoMonoNF"
+font-mono-fallback: "Noto Sans Mono"
+
+# Line spacing (1.0 = single, 1.25 = default, 1.5 = one-and-a-half)
+linespread: "1.5"
+
+# Colors — RGB values as "R,G,B" (0–255)
+color-heading: "25,55,120"
+color-link: "40,80,180"
+
+# Callout colors — LaTeX color names (red, blue, orange, green, etc.)
+# The template derives the title bar, border, and background from this base.
+color-important: "red"
+color-note: "blue"
+color-warning: "orange"
+color-tip: "green"
+color-caution: "yellow"
+color-summary: "violet"
+color-example: "black"
+---
