@@ -1,4 +1,4 @@
-# SimpleDoc v1.0.1 - Template Configuration
+# SimpleDoc v1.1.2 - Template Configuration
 ---
 title: "Georgia COAM SAS Requirements"
 author: "Jeremiah D Clark"
@@ -13,11 +13,48 @@ keywords:
 subject: "Georgia COAM SAS requirements."
 lang: en-US
 
+# ---------------------------------------------------------------------------
+# Document layout
+# ---------------------------------------------------------------------------
+# Controls whether the cover info gets its own page or becomes a header
+# block at the top of page 1.
+#   false = Long-form. Full title page with centered logo and disclaimer.
+#           Recommended for reports, manuals, specifications, or any
+#           document longer than ~5 pages.
+#   true  = Short-form. Compact header block at the top of page 1, with
+#           the body flowing directly beneath. Disclaimer is omitted.
+#           Recommended for memos, letters, briefs, cover notes
+#           (typically 1–5 pages). Consider setting toc: false as well.
+short-form: false
+
+# Max height of the banner image in short-form. Ignored in long-form.
+# Increase to push the header closer to "half the page".
+short-form-image-height: "2.2in"
+
+# ---------------------------------------------------------------------------
+# Logo / header image
+# ---------------------------------------------------------------------------
+# Recommended sizes (raster at 300 DPI for crisp print; vector preferred):
+#
+#   Long-form  — centered logo on the title page. Square or portrait
+#                orientation works best.
+#                  Target:   1500 × 1500 px  (≈ 5 × 5 in @ 300 DPI)
+#                  Minimum:  1200 × 1200 px
+#                  Format:   PNG w/ transparency, or SVG / PDF
+#
+#   Short-form — landscape banner spanning full text width. Short height
+#                keeps the header block compact.
+#                  Target:   2000 × 600 px   (≈ 6.5 × 2 in @ 300 DPI)
+#                  Minimum:  1600 × 500 px
+#                  Aspect:   ~3:1 to ~4:1 (wider than tall)
+#                  Format:   PNG, JPG, SVG, or PDF
+logo: ../images/BraveryLogo.png
+
 # Template controls
-logo: ../images/BraveryLogo.png     # Will be large and centered on title page
-# Disclaimer text for the title page. Replace YOUR_ORG with your company or
-# organization name, or delete the entire line to hide the disclaimer box.
-disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of Bravery Gaming LLC. Do not disseminate or share such information unless expressly approved by Bravery Gaming LLC and its constituents."
+# Disclaimer text for the title page. Long-form only — ignored in short-form.
+# Replace YOUR_ORG with your company or organization name, or delete the
+# entire line to hide the disclaimer box.
+disclaimer: "All information contained herein, unless otherwise indicated, is considered the intellectual property of YOUR_ORG. Do not disseminate or share such information unless expressly approved by YOUR_ORG and its constituents."
 toc: true                 # true/false
 toc-depth: 2              # 1-6
 secnumdepth: 0            # 0 = no numbers; 1 = H1 only; 2 = H1, and H2; 3 = H1, H2, and H3
@@ -37,9 +74,9 @@ papersize: letter         # letter/a4
 # Page layout
 # ---------------------------------------------------------------------------
 # Margins — standard LaTeX dimensions (in, cm, mm, pt, em)
-margin: "1in"             # Left and right margins
-margin-top: "1.25in"      # Top margin
-margin-bottom: "1.25in"   # Bottom margin
+margin: "1.2in"             # Left and right margins
+margin-top: "1in"      # Top margin
+margin-bottom: "1in"   # Bottom margin
 
 # Header/footer geometry — controls the spacing between the rules and the text
 headheight: "14pt"        # Height of the header box
@@ -52,20 +89,20 @@ footer-rule: "0.4pt"
 
 # Custom header content — leave blank or delete to hide
 # header-left: "Acme Corp"
-# header-center: ""
+# header-center: "Bravery Gaming, LLC"
 header-right: "Bravery Gaming, LLC"
 
 # Footer options
-# page-total: true          # Uncomment to show "Page X of Y" instead of "Page X"
+page-total: true          # Uncomment to show "Page X of Y" instead of "Page X"
 
 # ---------------------------------------------------------------------------
-# Title page
+# Title page (long-form only)
 # ---------------------------------------------------------------------------
 # Logo width as a fraction of the text width (0.0–1.0)
 logo-width: "0.8"
 
 # Vertical spacing between title page elements — standard LaTeX dimensions
-titlepage-post-rule: "2em"      # After the top rule, before the title
+titlepage-post-rule: "2.25em"      # After the top rule, before the title
 titlepage-post-title: "0.75em"  # After the title, before the author
 titlepage-post-author: "0.5em"  # After the author, before the date
 titlepage-post-date: "3em"      # After the date, before the logo
@@ -91,7 +128,7 @@ font-mono: "NotoMonoNF"
 font-mono-fallback: "Noto Sans Mono"
 
 # Line spacing (1.0 = single, 1.25 = default, 1.5 = one-and-a-half)
-linespread: "1.5"
+linespread: "1.25"
 
 # Colors — RGB values as "R,G,B" (0–255)
 color-heading: "25,55,120"

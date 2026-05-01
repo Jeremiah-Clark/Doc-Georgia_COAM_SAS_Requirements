@@ -1,6 +1,6 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────
-# SimpleDoc v1.0.1 — Build Script
+# SimpleDoc v1.1.2 — Build Script
 # Converts Markdown files into a styled PDF via Pandoc + XeLaTeX.
 # Run from template folder:  ./build.sh
 # ─────────────────────────────────────────────────────────────
