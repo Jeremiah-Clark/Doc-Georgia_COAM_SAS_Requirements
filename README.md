@@ -51,4 +51,4 @@ This document is designed for experienced slot developers and producers who need
 
 # Template System
 
-This document uses my [SimpleDoc Template System](https://github.com/Jeremiah-Clark/Template-Simple_Doc)
+This document uses the Pro version of my [SimpleDoc Lite Template System](https://github.com/Jeremiah-Clark/simple-doc-lite).
