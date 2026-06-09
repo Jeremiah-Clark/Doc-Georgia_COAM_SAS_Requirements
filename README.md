@@ -9,10 +9,11 @@ This document is designed for experienced slot developers and producers who need
 ├── 00-Frontmatter.md                        # Document information and disclaimer
 ├── 01-SAS_Requirements.md                   # Details of SAS regulations
 ├── 02-Source_Documents.md                   # Links to relevant documents
-├── master.yaml                              # Metadata + style settings
+├── master.yaml                              # Metadata + style setting defaults
+├── project.yaml                             # Project metadata + style settings
 ├── build.sh                                 # Build script
 └── images/                                  # Image folder
-  └── BraveryLogo.png
+  └── logo.png
 ```
 
 ## Document Table of Contents
