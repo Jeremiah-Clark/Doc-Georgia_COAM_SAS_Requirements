@@ -1,0 +1,126 @@
+# SimpleDoc — Project Configuration
+# Override only the fields you need. master.yaml supplies all defaults.
+# ─────────────────────────────────────────────────────────────
+---
+
+# ── BUILD SETTINGS ───────────────────────────────────────────
+
+output: "../Georgia_COAM_SAS_Requirements-Latest.pdf"
+input-files:
+  - ../content/00-Frontmatter.md
+  - ../content/01-SAS_Requirements.md
+  - ../content/02-Source_Documents.md
+
+# ── DOCUMENT METADATA ────────────────────────────────────────
+
+title:   "Georgia COAM SAS Requirements"
+author:  "Jeremiah D Clark"
+date:    "2026-02-27"
+# auto-date: true          # Use today's date instead of the date above
+version: "1.2"
+subject: "Georgia COAM SAS requirements."
+keywords:
+- gaming
+- Georgia
+- COAM
+- regulations
+
+# ── LAYOUT ──────────────────────────────────────────────────
+
+short-form: false          # true = compact header; false = title page
+# short-form-image-height: "2.2in"
+
+# ── LOGO ────────────────────────────────────────────────────
+# Path to your logo image. Delete or comment out this line for no logo.
+# Long-form: square/portrait, ~1500×1500 px. Short-form: landscape banner, ~2000×600 px.
+
+logo: ../images/logo.png
+
+# ── COVER DISCLAIMER (long-form only) ───────────────────────
+# Appears in a box at the bottom of the title page.
+# Delete or comment out this line to hide the disclaimer box.
+
+disclaimer: "This document draws on publicly available sources. The selection, organization, analysis, and original commentary are the author's own and are protected by copyright."
+
+# ── NAVIGATION ──────────────────────────────────────────────
+
+toc: true
+# toc-depth: 2
+# secnumdepth: 2            # 0 = none, 1 = H1, 2 = H1+H2, 3 = H1+H2+H3
+# h2-page-break: false      # true = each H2 starts on a new page
+
+# ── WATERMARK ───────────────────────────────────────────────
+# Angled text across every page. Delete all three lines to disable.
+
+# watermark: "DRAFT"
+# watermark-opacity: "0.15"  # 0.0 = invisible, 1.0 = fully opaque
+# watermark-scale: "80pt"
+
+# ── PAGE SIZE ───────────────────────────────────────────────
+
+# papersize: letter          # letter / a4
+# fontsize: 11pt
+
+# ── MARGINS ─────────────────────────────────────────────────
+
+# margin: "1in"              # left and right
+margin-top: "1in"
+margin-bottom: "1.1in"
+
+# ── HEADER & FOOTER GEOMETRY ─────────────────────────────────
+
+# headheight: "14pt"         # height of the header box
+# headsep: "12pt"            # gap between header rule and body text
+# footskip: "30pt"           # distance from body bottom to footer baseline
+
+# ── HEADER & FOOTER RULES ────────────────────────────────────
+
+# header-rule: "0.4pt"       # set to "0pt" to hide
+# footer-rule: "0.4pt"       # set to "0pt" to hide
+
+# ── CUSTOM HEADER CONTENT ────────────────────────────────────
+# Leave commented out to show no header text (the rule still appears).
+
+header-left:   "©2026 Jeremiah Clark"
+# header-center: ""
+header-right:  "JeremiahClark.com"
+
+# ── FOOTER ──────────────────────────────────────────────────
+
+page-total: true           # true = "Page X of Y"; false = "Page X"
+
+# ── TITLE PAGE LAYOUT (long-form only) ──────────────────────
+
+logo-width: "0.7"               # logo width as fraction of text width (0.0–1.0)
+# titlepage-post-rule:   "2em"    # space after top rule, before title
+# titlepage-post-title:  "0.75em" # space after title, before author
+# titlepage-post-author: "0.5em"  # space after author, before date
+# titlepage-post-date:   "3em"    # space after date, before logo
+
+# ── FONTS ───────────────────────────────────────────────────
+# Primary is tried first; falls back automatically if not installed.
+
+# font-body:             "NotoSansNF-Reg"
+# font-body-fallback:    "Noto Sans"
+# font-heading:          "NotoSansNF-Reg"
+# font-heading-fallback: "Noto Sans"
+# font-mono:             "NotoMonoNF"
+# font-mono-fallback:    "Noto Sans Mono"
+# linespread: "1.25"     # 1.0 = single, 1.25 = default, 1.5 = one-and-a-half
+
+# ── COLORS ──────────────────────────────────────────────────
+
+# color-heading: "25,55,120"   # R,G,B (0–255)
+# color-link:    "40,80,180"
+
+# ── CALLOUT COLORS ──────────────────────────────────────────
+# LaTeX color names: red, blue, orange, green, yellow, violet, black, gray
+
+# color-important: "red"
+# color-note:      "blue"
+# color-warning:   "orange"
+# color-tip:       "green"
+# color-caution:   "yellow"
+# color-summary:   "violet"
+# color-example:   "black"
+---
