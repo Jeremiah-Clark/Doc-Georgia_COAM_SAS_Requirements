@@ -9,10 +9,11 @@ This document is designed for experienced slot developers and producers who need
 ├── 00-Frontmatter.md                        # Document information and disclaimer
 ├── 01-SAS_Requirements.md                   # Details of SAS regulations
 ├── 02-Source_Documents.md                   # Links to relevant documents
-├── master.yaml                              # Metadata + style settings
+├── master.yaml                              # Metadata + style setting defaults
+├── project.yaml                             # Project metadata + style settings
 ├── build.sh                                 # Build script
 └── images/                                  # Image folder
-  └── BraveryLogo.png
+  └── logo.png
 ```
 
 ## Document Table of Contents
@@ -44,9 +45,10 @@ This document is designed for experienced slot developers and producers who need
 
 - **v1** - Initial document, January 2026
   - **V1.1** - Formatted for new template, February 2026
- 
+- **v2** - Updated template and logo, no substantive changes
+
 ---
 
 # Template System
 
-This document uses my [SimpleDoc Template System](https://github.com/Jeremiah-Clark/Template-Simple_Doc)
+This document uses the Pro version of my [SimpleDoc Lite Template System](https://github.com/Jeremiah-Clark/simple-doc-lite).
