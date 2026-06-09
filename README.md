@@ -44,7 +44,8 @@ This document is designed for experienced slot developers and producers who need
 
 - **v1** - Initial document, January 2026
   - **V1.1** - Formatted for new template, February 2026
- 
+- **v2** - Updated template and logo, no substantive changes
+
 ---
 
 # Template System
